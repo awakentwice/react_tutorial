@@ -1,0 +1,39 @@
+{
+  "name": "react_tutorial",
+  "version": "1.0.0",
+  "description": "small react tutorial for sberned stat guys",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --port 5555 --color --display-error-details --config config/webpack.dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awakentwice/react_tutorial.git"
+  },
+  "keywords": [
+    "react",
+    "tutorial"
+  ],
+  "author": "Renat A. Samatov <awakentwice@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awakentwice/react_tutorial/issues"
+  },
+  "homepage": "https://github.com/awakentwice/react_tutorial#readme",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "html-webpack-plugin": "^2.22.0",
+    "react-dom": "^15.3.1",
+    "stylus": "^0.54.5",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "react": "^15.3.1",
+    "reselect": "^2.5.3"
+  }
+}
